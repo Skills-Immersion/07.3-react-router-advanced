@@ -29,7 +29,7 @@ function App() {
           <Route path="/search">
             <Search />
           </Route>
-          <Route path="/potatoes/:id">
+          <Route path="/shows/:id">
             <ShowDetail />
           </Route>
           <Route>

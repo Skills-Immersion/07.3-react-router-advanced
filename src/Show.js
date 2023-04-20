@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Show({ show }) {
 
   return <div>
-    <Link to={`/potatoes/${show.id}`}>
+    <Link to={`/shows/${show.id}`}>
       <h3>{show.name}</h3>
     </Link>
     {show?.image?.medium && <img src={show.image.medium} />}
